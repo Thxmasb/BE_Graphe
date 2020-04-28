@@ -45,6 +45,11 @@ public class Label implements Comparable<Label>{
 	}
 
 
+	public Arc getPere() {
+		return pere;
+	}
+
+
 	public void marquer() {
         this.marque = true;
     }
