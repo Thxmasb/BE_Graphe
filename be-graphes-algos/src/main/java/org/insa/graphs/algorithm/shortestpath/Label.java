@@ -17,6 +17,9 @@ public class Label implements Comparable<Label>{
         return this.cout;
     }
     
+    public double getTotalCost() {
+        return this.cout;
+    }
 
 	public boolean isMarque() {
 		return this.marque;
@@ -55,7 +58,7 @@ public class Label implements Comparable<Label>{
     }
 	
     public int compareTo(Label other) {
-        return Double.compare(getCost(), other.getCost());
+        return Double.compare(getTotalCost(), other.getTotalCost());
     }
 	
 }
