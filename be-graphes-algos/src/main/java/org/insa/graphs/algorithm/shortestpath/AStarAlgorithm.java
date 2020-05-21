@@ -119,7 +119,7 @@ public class AStarAlgorithm extends DijkstraAlgorithm {
             }
             
 
-            System.out.println("Path : "+path.getLength()+" SPS : "+labels[data.getDestination().getId()].getCost());
+            //System.out.println("Path : "+path.getLength()+" SPS : "+labels[data.getDestination().getId()].getCost());
 
    
             
